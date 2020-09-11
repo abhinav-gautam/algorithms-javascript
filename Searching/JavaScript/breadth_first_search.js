@@ -152,20 +152,18 @@ class BinarySearchTree {
     }
 }
 
-
+// Tree
+//     9
+//  4     20
+//1  6  15  170
 const tree = new BinarySearchTree();
-tree.insert(50)
-tree.insert(30)
-tree.insert(70)
-tree.insert(60)
-tree.insert(85)
-tree.insert(75)
-tree.insert(95)
-tree.insert(99)
-tree.insert(72)
-tree.insert(80)
-tree.insert(73)
-tree.insert(74)
+tree.insert(9)
+tree.insert(4)
+tree.insert(6)
+tree.insert(20)
+tree.insert(170)
+tree.insert(15)
+tree.insert(1)
 console.log(tree.breadthFirstSearch())
 console.log(tree.breadthFirstSearchR([tree.root],[]))
 
